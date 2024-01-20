@@ -1,0 +1,50 @@
+* {
+    margin: 5px;
+}
+.container {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.404);
+    border-radius: 50px;
+}
+.dark {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.light {
+    background-color: white;
+    color: black;
+}
+.input {
+    align-self: center;
+    align-items: center;
+}
+#answar {
+    border: none;
+}
+#input-1 {
+    margin-left: 20px;
+}
+#input-2 {
+    margin-left: 50px;
+}
+.calc-btn {
+    text-align: center;
+}
+#btn {
+    border-radius: 10px;
+}
+#num1 {
+    border-radius: 5px;
+}
+#num2 {
+    border-radius: 5px;
+}
+#oper {
+    border-radius: 5px;
+}
+#answar {
+    border-radius: 5px;
+}
+#ac-btn {
+    border-radius: 10px;
+}

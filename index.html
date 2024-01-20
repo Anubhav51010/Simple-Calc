@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="darkorlightmode">
+        <input type="checkbox" name="modechanger" id="checkbox">Dark Mode
+    </div>
+    <div class="container">
+        <div class="heading">
+            <h2>Calculator</h2>
+        </div>
+        <div class="inputs">
+            <div class="input" id="input-1">
+                Enter First Number : <input type="number" name="n1" class="input1" id="num1">
+            </div>
+            <div class="input" id="input-2">
+                Enter Operator : <input type="text" name="op" class="input1" id="oper">
+            </div>
+            <div class="input" id="input-3">
+                Enter Second Number : <input type="number" name="n2" class="input1" id="num2">
+            </div>
+            <input type="text" placeholder="Answar" class="input1" id="answar"><button id="ac-btn">AC</button>
+                
+            </div>
+        </div> 
+        <div class="calc-btn">
+            <button id="btn">Calculate</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+</html>
